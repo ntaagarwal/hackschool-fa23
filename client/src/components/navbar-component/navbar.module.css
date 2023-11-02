@@ -6,6 +6,13 @@
     - Add a bottom margin of 35px
     - Add a padding of 25px to thicken navbar
     */
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding: 25px;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .title a {
@@ -16,6 +23,11 @@
     - Get rid of the link underline with text-decoration
     - Bold the text
     */
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -26,4 +38,8 @@
     - Add a right margin of 16px
     - Get rid of the link underline with text-decoration
     */
+    color: white;
+    font-size: 25px;
+    margin-right: 16px;
+    text-decoration: none;
 }
