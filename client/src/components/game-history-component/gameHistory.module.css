@@ -11,6 +11,12 @@ For the card:
 */
 
   width: 350px;
+  height: 150px;
+  border-color: 2px;
+  border-radius: 0cqi;
+  margin: 10px;
+  box-shadow: 0cqi;
+  transition:cubic-bezier(1, 0, 0, 1);
 
 }
 
@@ -18,7 +24,9 @@ For the card:
 For the content inside the card:
 - Add some margin to the top!
 */
-
+.cardContent {
+  border: 2px; 
+}
 /*
 Bonus: Enlarge the card when you hover over it!
 */
